@@ -9,4 +9,5 @@ public class ComunicacaoComUtilizadores implements Observer {
     public void update(Observable observable, Object o) {
 
     }
+
 }

@@ -15,7 +15,9 @@ public class ComunicacaoComServidor extends Observable {
     //List <Observer> l = new ArrayList<>();
 
     public ComunicacaoComServidor(Socket socketServidor){
+
         this.socketServidor = socketServidor;
+
     }
 
 }

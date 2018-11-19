@@ -12,6 +12,8 @@ import java.util.Observable;
 
 // for(Observer o : l)
 //  o.update(this,null);  <- Quando se quere chamar update
+//
+// Lista de interfaces remotas implementadas pelos clientes, para RMI.
 
 public class TransferenciaFicheiros extends Observable {
 
@@ -20,12 +22,16 @@ public class TransferenciaFicheiros extends Observable {
     //List <Observer> l = new ArrayList<>();
 
     public TransferenciaFicheiros(){
+
         socketsClientes = new ArrayList<Socket>();
         socketTransferenciaTemporario = null;
+
     }
 
     public void addCliente(Socket socketCliente){
+
         socketsClientes.add(socketCliente);
+
     }
 
     public boolean enviaFicheiro(String nomeFich, String pathname,Socket socketTemporario){

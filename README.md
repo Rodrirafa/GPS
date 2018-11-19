@@ -1,2 +1,2 @@
-# GPS
-Um repositório com recursos de Gestão de Projeto de Software
+﻿# PD
+Um repositório com o trabalho de PD de 2018

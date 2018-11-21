@@ -7,3 +7,6 @@
 • Quando é gerada uma exceção num módulo do servidor, o mesmo serializa o objeto do tipo Exception e manda-o para o cliente, o último deserializa o objeto e faz throw automaticamente;
 
 • É provável que os módulos de comunicação com o Servidor tenham bastantes threads;
+
+
+-------------

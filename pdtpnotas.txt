@@ -1,0 +1,9 @@
+• Vista tem os mesmos métodos que o Modelo, mas esses métodos fazem coisas diferentes;
+
+• Vista Observa um Modelo;
+
+• update da Vista tem um método chamada getmystate(); ;
+
+• Quando é gerada uma exceção num módulo do servidor, o mesmo serializa o objeto do tipo Exception e manda-o para o cliente, o último deserializa o objeto e faz throw automaticamente;
+
+• É provável que os módulos de comunicação com o Servidor tenham bastantes threads;
